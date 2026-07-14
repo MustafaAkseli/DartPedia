@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: f6526c100095fd63a916824e3da344bbbd50c25c8f56bcd52d13c59d35bbe422
+      sha256: "9a3386eea899815698dd55995277cf7cb8572ee52b399a6edfb7ae2b50e5fc19"
       url: "https://pub.dev"
     source: hosted
-    version: "104.0.0"
+    version: "105.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "6c6d751533496152e78f71c46ad001260c5e74e0f9ec1f1cbc165a0467c086d6"
+      sha256: "62993bed6eadbe9596c5c20d5c167e7bc563c5fe266657a04ddeb93bdb84f4c9"
       url: "https://pub.dev"
     source: hosted
-    version: "14.0.0"
+    version: "14.1.0"
   args:
     dependency: transitive
     description:
@@ -57,13 +57,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
-  command_runner:
-    dependency: "direct main"
-    description:
-      path: "../command_runner"
-      relative: true
-    source: path
-    version: "1.0.0"
   convert:
     dependency: transitive
     description:
@@ -113,7 +106,7 @@ packages:
     source: hosted
     version: "2.1.3"
   http:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: http
       sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
@@ -145,7 +138,7 @@ packages:
     source: hosted
     version: "1.0.5"
   lints:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: lints
       sha256: "12f842a479589fea194fe5c5a3095abc7be0c1f2ddfa9a0e76aed1dbd26a87df"
@@ -201,7 +194,7 @@ packages:
     source: hosted
     version: "3.0.0"
   path:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: path
       sha256: "75cca69d1490965be98c73ceaea117e8a04dd21217b37b292c9ddbec0d955bc5"
@@ -313,7 +306,7 @@ packages:
     source: hosted
     version: "1.2.2"
   test:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: test
       sha256: "0d5ba5602ec3baa28c8ce365e1efc5575969c765f45c554a3e167dc7945b9c30"
