@@ -1,0 +1,7 @@
+# Dart and pub generated files
+.dart_tool/
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml

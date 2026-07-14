@@ -2,8 +2,7 @@ import 'dart:collection';
 import 'dart:async';
 import 'command_runner_base.dart';
 
-
-enum OptionType {flag, option}
+enum OptionType { flag, option }
 
 abstract class Argument {
   String get name;
@@ -73,12 +72,12 @@ abstract class Command extends Argument {
   @override
   String? valueHelp;
 
-  final List<Option> _options = [] ;
+  final List<Option> _options = [];
 
   UnmodifiableSetView<Option> get options =>
-    UnmodifiableSetView(_options.toSet());
-  
-   void addFlag(String name, {String? help, String? abbr, String? valueHelp}) {
+      UnmodifiableSetView(_options.toSet());
+
+  void addFlag(String name, {String? help, String? abbr, String? valueHelp}) {
     _options.add(
       Option(
         name,
@@ -110,13 +109,14 @@ abstract class Command extends Argument {
       ),
     );
   }
+
   FutureOr<Object?> run(ArgResults args);
 
   @override
   String get usage {
     return '$name:  $description';
   }
-} 
+}
 
 class ArgResults {
   Command? command;
@@ -148,4 +148,3 @@ class ArgResults {
     return (option: mapEntry.key, input: mapEntry.value);
   }
 }
-
